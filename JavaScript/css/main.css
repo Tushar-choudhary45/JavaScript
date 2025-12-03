@@ -1,0 +1,31 @@
+/* --- Basic Reset & Setup --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes width/height properties include padding and borders */
+}
+
+body {
+    font-family: sans-serif; /* A clean, universal font */
+    line-height: 1.6;        /* Improves readability */
+    background-color: #f4f4f4; /* A light gray background for the whole page */
+    color: #333;             /* Dark gray text color */
+}
+
+/* --- Layout for main content --- */
+main {
+    max-width: 800px;        /* Prevents content from getting too wide on large screens */
+    margin: 2rem auto;       /* Centers the 'main' container horizontally with some top/bottom space */
+    padding: 1rem;           /* Spacing inside the main container */
+    background-color: #fff;  /* White background for the content area */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 5px;      /* Slightly rounded corners */
+}
+
+/* --- Styling the Heading --- */
+h1 {
+    color: #0056b3;          /* A nice blue color for the main heading */
+    margin-bottom: 1rem;     /* Space below the heading */
+    border-bottom: 2px solid #0056b3; /* A line under the heading */
+    padding-bottom: 0.5rem;  /* Space between the text and the line */
+}
